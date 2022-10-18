@@ -1,0 +1,16 @@
+4+4
+names = c("Nikhil","Niyati")
+names
+
+numbers = c(1,2,3,4)
+numbers
+
+#this is a funciton to test if a number is even or odd
+#if modulus is equal to 0 then the num is even 
+is_even = function(my_number) {
+  modulus = my_number %% 2
+  if (modulus==0){
+  return(modulus)
+}
+
+is_even(35)

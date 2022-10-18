@@ -1,0 +1,14 @@
+ls: for list
+ls -ltr: long list 
+rm: to remove a file
+touch: to add a file
+cd: change directory
+mkdir: make a directory
+pwd: path working directory
+history: shows all the commands type
+Control r: reverse search engine
+Control C: cancels the command
+tab: complets your search
+Vim: Text editor tool
+Cat: reads what is in a file
+rm -r: delete a directory
