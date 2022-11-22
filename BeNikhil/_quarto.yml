@@ -1,0 +1,21 @@
+project:
+  type: website
+
+website:
+  title: "Nikhil's blog"
+  navbar:
+    right:
+      - about.qmd
+      - icon: github
+        href: https://github.com/nikh123
+      - icon: twitter
+        href: https://twitter.com
+      - icon: linkedin
+        href: https://www.linkedin.com/in/nikhil-acharya-5a8049258/
+format:
+  html:
+    theme: darkly
+    css: styles.css
+
+
+
