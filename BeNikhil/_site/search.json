@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this blog"
+  },
+  {
+    "objectID": "posts/Github/index.html",
+    "href": "posts/Github/index.html",
+    "title": "Github",
+    "section": "",
+    "text": "Github\nGit is an open source software used to keep up with the changes in files and to colaborate between programmers. Here are some basic commands for git:\ngit add. Usage: git add [file] . . .\ngit commit. Usage: git commit -m “[ Type in the commit message].\n\n\nCreate a repository in Github\ncreate a folder using mkdirand “name” it then use cd+ “name” to change the directory. Once in the directory run git init and exlplore all the files and folder git.\n\n\nCreate an empty file\nCreate a new file using touch“name”.txt and using vim “name”.txt write some information.\n\n\nNew repositry in Github\nCreate a new repositry in Github “name” and make sure it is public.\n\n\nPublic key/ Private key\nWe will generate our key using ssh-keygen -t ed25519 then we leave this directory using cd. To read our key we us cat ~/.ssh/id_ed25519.pub then copy the key and paste it under New SSH key in SSH and GPG key in the GitHub settings give it a “name” and create it.\n\n\nUpload to new repo\nUse cd cloud/project/name to get into your directory and then use git add . to uplaod. Next you will be using git config --global user.email \"your_email@example.com\". Then use git commit -m + ”name”“ and finally use git push origin master to upload it to Github. If it shows that the there is an error in uploading to the gihub using git push origin master then you can override and forcefully upload by using git push origin master -f."
+  },
+  {
+    "objectID": "posts/cricket/index.html",
+    "href": "posts/cricket/index.html",
+    "title": "Welcome To My Blog on cricket",
+    "section": "",
+    "text": "On the 23rd October we witnessed the most intense and nail-biting match between India and Pakistan. Virat Kohli and Hardik pandya saved India and won the match for us."
+  },
+  {
+    "objectID": "posts/Binning/index.html",
+    "href": "posts/Binning/index.html",
+    "title": "Binning",
+    "section": "",
+    "text": "Application\nTo apply this technique we will be using the command cut(\"dataset\", \"number of bins\", labels = \"names of the bins\")\nIt is fairly straight forward to use.\nYou can use assign this as a variable and then use it to make barplots, graphs, etc..\nFor example, in one of my assignments we were trying to see the correlation between grades and the mother’s education and we applied the binning to the grades. We classed them into 4 bins and then using the code below we created a ggplot which helps us analyse.\nlibrary(ggplot2)\nggplot() +\ngeom_bar( data = my_data,\naes( x = factor(medu),\nfill = factor( G3 ) ),\nposition = \"stack\" ) +\nscale_x_discrete( \"medu\" ) +\nscale_y_continuous( \"G3\" ) +\nguides( fill = guide_legend( title = \"Grades\" ) )\nggplot() +\ngeom_bar( data = my_data,\naes( x = factor(medu),\nfill = factor( G3 ) ),\nposition = \"fill\" ) +\nscale_x_discrete( \"medu\" ) +\nscale_y_continuous( \"G3\" ) +\nguides( fill = guide_legend( title = \"Grades\" ))"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Be Nikhil",
+    "section": "",
+    "text": "information\n\n\nGeneral\n\n\n\n\n\n\n\n\n\n\n\nOct 29, 2022\n\n\nNikhil\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nnews\n\n\nsports\n\n\n\n\n\n\n\n\n\n\n\nOct 29, 2022\n\n\nNikhil\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nR\n\n\napplication\n\n\n\n\n\n\n\n\n\n\n\nOct 29, 2022\n\n\nNikhil\n\n\n\n\n\n\nNo matching items"
+  }
+]
